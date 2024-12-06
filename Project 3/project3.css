@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#navbar{
+    display: flex;
+    /* background-color: grey; */
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    position: relative;
+    top: 10px;
+    left: 409px;
+}
+#navbar ul li{
+    padding: 5px 25px;
+    margin: 5px 5px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+#navbar ul li a:hover{
+    color: rgb(241, 166, 166);
+    text-decoration: underline;
+}
+#navbar ul li a:active{
+    color: rbg(241, 166, 166);
+    text-decoration: underline;
+}
+.btn{
+    position: relative;
+    left: 675px;
+    top: 8px;
+    margin: 21px 4px;
+    padding: 3px 8px;
+    color: white;
+    background-color: rgb(148, 147, 147);
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 2px;
+}
+.btn:hover{
+    color: blue;
+    transform: scale(1.2);
+}
+.bg{
+    background-image: url(pexels-steve-28932128.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -21px;
+    color: white;
+}
+h1{
+    font-size: 40px;
+    padding: 5px;
+    position: relative;
+    top: 20px;
+}
+p{
+    font-size: 17px;
+    padding: 15px;
+}
+.action-button{
+    color: white;
+    background-color: #007bff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.action-button:hover{
+    background-color: #0056b3;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+.feature{
+    margin: 4px 20px;
+    padding: 4px 8px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px;
+    transition: transform 0.3s;
+}
+.feature:hover{
+    transform: scale(1.10);
+    color: blue;
+}
+footer{
+    position: relative;
+    top: 143px;
+    background-color: #333;
+    color: white;
+}
