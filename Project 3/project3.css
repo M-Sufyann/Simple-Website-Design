@@ -6,8 +6,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #navbar{
-    display: flex;
-    /* background-color: grey; */
+    display: flex;
 }
 #navbar ul{
     display: flex;
